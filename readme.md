@@ -37,38 +37,38 @@ here is the point:0.99971634
 
 ### 运行结果：
 
-> ROMEO: I advance fiture each other,
-> How many haughty love, your own suspicion from so rounder he divide,
-> As if I had some all fell.
+> ROMEO: I advance fiture each other,  
+> How many haughty love, your own suspicion from so rounder he divide,  
+> As if I had some all fell.   
 >
-> Fullow:
-> Bleased the soldiers, Cleome,
-> And thou hadst beat me back to Man
-> In an outward stars that sle with thee?
-> Why should she noble endary?
+> Fullow:  
+> Bleased the soldiers, Cleome,  
+> And thou hadst beat me back to Man.  
+> In an outward stars that sle with thee?  
+> Why should she noble endary?    
 >
-> DUKE OF YORK:
-> 'Twas something I have you aud in France,
-> And rear ourselves: 'tis he that lives in the substance where
-> They are buts for a schollow.
+> DUKE OF YORK:  
+> 'Twas something I have you aud in France,  
+> And rear ourselves: 'tis he that lives in the substance where.   
+> They are buts for a schollow.  
 >
-> CAPULET:
-> God and for all his own good will doth lack some general.
+> CAPULET:  
+> God and for all his own good will doth lack some general.  
 >
-> Gire descings beasts do go.
+> Gire descings beasts do go.  
 >
-> LADY GREY:
-> My lords, so amel, or ho! You are plack'd,
-> And nother ready straight
-> And ragers else to make in piece of my mind.
+> LADY GREY:  
+> My lords, so amel, or ho! You are plack'd,  
+> And nother ready straight.   
+> And ragers else to make in piece of my mind.  
 >
-> WARWICK:
-> Ay for my middless sin with arms:
-> Be you, covert:
-> We cannot blow our needs, even whether I wear your highness
-> Will up my master read it in his high;
-> To-morrow or perpetual speech, have you know the drowsy overworn:
-> When I would be the rest receive an offer;
-> Why, why, your fearful souls thy head,
-> And errs as swiftly, sir;
-> Hortensio after largers, fr
+> WARWICK:  
+> Ay for my middless sin with arms  
+> Be you, covert:  
+> We cannot blow our needs, even whether I wear your highness  
+> Will up my master read it in his high;  
+> To-morrow or perpetual speech, have you know the drowsy overworn:  
+> When I would be the rest receive an offer;  
+> Why, why, your fearful souls thy head,  
+> And errs as swiftly, sir;  
+> Hortensio after largers, fr  
