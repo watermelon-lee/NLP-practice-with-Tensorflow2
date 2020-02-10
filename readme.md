@@ -97,9 +97,9 @@ here is the point:0.99971634
 
 ## 运行结果
 
-<img src="./pic/attention2.png" style="zoom:50%;" />
+<img src="./pic/attention2.png" style="zoom:30%;" />
 
-<img src="./pic/attention3.png" style="zoom:50%;" />
+<img src="./pic/attention3.png" style="zoom:30%;" />
 
 
 
