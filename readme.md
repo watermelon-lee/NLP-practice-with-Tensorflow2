@@ -20,18 +20,6 @@ colab上，embedding_size=300,epoch=10，最相似的10个单词
 
 > womderful-->['wonderful', 'haunting', 'everyone', 'brilliant', 'marvel', 'fantastic', 'underrated', 'superb', 'perfect', 'flaw']
 
-
-
-
-
-
-
-
-
-
-
-
-
 # RNN文本分类
 
 项目说明：【待补充】，在代码中也有很多注释，足以明白这个项目了
@@ -79,38 +67,41 @@ here is the point:0.99971634
 
 ### 运行结果：
 
-> ROMEO: I advance fiture each other,  
-> How many haughty love, your own suspicion from so rounder he divide,  
+> ROMEO:
+> 
+> I advance fiture each other,  
+>How many haughty love, your own suspicion from so rounder he divide,  
 > As if I had some all fell.   
->
+> 
 > Fullow:  
 > Bleased the soldiers, Cleome,  
 > And thou hadst beat me back to Man.  
-> In an outward stars that sle with thee?  
+>In an outward stars that sle with thee?  
 > Why should she noble endary?    
->
-> DUKE OF YORK:  
-> 'Twas something I have you aud in France,  
-> And rear ourselves: 'tis he that lives in the substance where.   
-> They are buts for a schollow.  
->
-> CAPULET:  
-> God and for all his own good will doth lack some general.  
->
-> Gire descings beasts do go.  
->
-> LADY GREY:  
-> My lords, so amel, or ho! You are plack'd,  
-> And nother ready straight.   
-> And ragers else to make in piece of my mind.  
->
-> WARWICK:  
-> Ay for my middless sin with arms  
-> Be you, covert:  
-> We cannot blow our needs, even whether I wear your highness  
-> Will up my master read it in his high;  
-> To-morrow or perpetual speech, have you know the drowsy overworn:  
-> When I would be the rest receive an offer;  
-> Why, why, your fearful souls thy head,  
-> And errs as swiftly, sir;  
-> Hortensio after largers, fr  
+> 
+> .............
+
+# 注意力模型-机器翻译
+
+项目说明：【待补充】，在代码中也有很多注释，足以明白这个项目了
+
+项目代码：[查看代码](注意力机制-机器翻译.ipynb)
+
+基于Bahdanau注意力模型，论文中底层使用双向RNN（这里使用的单向GRU）。 计算得分，
+
+论文使用的是Si-1（decoder-hidden-state）与hj（encoder-hidden-state） 在下面的模型中，使用的是decoder-hidden-state与encoder-output。
+
+为了便于训练，我只使用了30000条较短的数据（西班牙语--->英语），对于较短句子（10个单词以内）翻译效果还行。
+
+若想获得更好的效果，可以使用更多的语料(num_samples=None)，在colab上训练更多的周期。
+
+## 运行结果
+
+<img src="./pic/attention2.png" style="zoom:50%;" />
+
+<img src="./pic/attention3.png" style="zoom:50%;" />
+
+
+
+
+
