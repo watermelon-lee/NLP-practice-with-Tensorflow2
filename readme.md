@@ -96,9 +96,12 @@ here is the point:0.99971634
 若想获得更好的效果，可以使用更多的语料(num_samples=None)，在colab上训练更多的周期。
 
 ## 运行结果
-较好的结果：
+较好的结果:  
+
 <img src="./pic/attention2.png"  width="400"  height="300 " />
-较差的结果
+
+较差的结果:
+
 <img src="./pic/attention3.png"  width="400"  height="300 " />
 
 
