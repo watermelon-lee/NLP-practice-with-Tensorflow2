@@ -63,7 +63,7 @@ here is the point:0.99971634
 
 项目代码：[查看代码](莎士比亚风格文本生成.ipynb)
 
-对莎士比亚的作品学习，给定起始字符（下方运行结果中，给定的起始单词为'ROME: '）,训练出来的模型将会自动生成莎士比亚风格类型的文本。
+对莎士比亚的作品学习，给定起始字符（下方运行结果中，给定的起始单词为'ROMEO: '）,训练出来的模型将会自动生成莎士比亚风格类型的文本。
 
 ### 运行结果：
 
@@ -87,6 +87,8 @@ here is the point:0.99971634
 
 项目代码：[查看代码](注意力机制-机器翻译.ipynb)
 
+了解Attention：[关于Attention的不错文章](https://zhuanlan.zhihu.com/p/37601161)
+
 基于Bahdanau注意力模型，论文中底层使用双向RNN（这里使用的单向GRU）。 计算得分，
 
 论文使用的是Si-1（decoder-hidden-state）与hj（encoder-hidden-state） 在下面的模型中，使用的是decoder-hidden-state与encoder-output。
@@ -97,11 +99,34 @@ here is the point:0.99971634
 
 ## 运行结果
 
-<img src="./pic/attention2.png" style="zoom:50%;" />
+<img src="./pic/attention2.png" width="400" height="300" />
 
-<img src="./pic/attention3.png" style="zoom:50%;" />
-
-
+<img src="./pic/attention3.png"  width="400"  height="300 " />
 
 
 
+# Transformer模型
+
+项目说明：【待补充】，在代码中也有很多注释，足以明白这个项目了
+
+项目代码：[查看代码](./Transformer模型.ipynb)
+
+训练了一个Transformer模型。将葡萄牙语翻译为英语。
+
+了解Transformer：[关于Transformer的不错文章](https://blog.csdn.net/qq_41664845/article/details/84969266)
+
+项目使用数据集来自于 [TED 演讲开放翻译项目](https://www.ted.com/participate/translate)，该数据集包含来约 50000 条训练样本，1100 条验证样本，以及 2000 条测试样本。
+
+## 运行结果：
+
+- 结果一（without plot attention weights）：
+
+```
+Input: vou então muito rapidamente partilhar convosco algumas histórias de algumas coisas mágicas que aconteceram.
+Predicted sentence is: so i 'm very quickly sharing with you some stories of some magic things that happened .
+Real translation: so i 'll just share with you some stories very quickly of some magical things that have happened .
+```
+
+- 结果二：
+
+![ans](./pic/transformer5.png)
