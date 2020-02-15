@@ -98,7 +98,9 @@ here is the point:0.99971634
 若想获得更好的效果，可以使用更多的语料(num_samples=None)，在colab上训练更多的周期。
 
 ## 运行结果
+较好的结果:  
 
+<<<<<<< HEAD
 <img src="./pic/attention2.png" width="400" height="300" />
 
 <img src="./pic/attention3.png"  width="400"  height="300 " />
@@ -114,6 +116,13 @@ here is the point:0.99971634
 训练了一个Transformer模型。将葡萄牙语翻译为英语。
 
 了解Transformer：[关于Transformer的不错文章](https://blog.csdn.net/qq_41664845/article/details/84969266)
+=======
+<img src="./pic/attention2.png"  width="400"  height="300 " />
+
+较差的结果:
+
+<img src="./pic/attention3.png"  width="400"  height="300 " />
+>>>>>>> bfeac7a74903218c65d5a37a57032f0e4c9c3f9e
 
 项目使用数据集来自于 [TED 演讲开放翻译项目](https://www.ted.com/participate/translate)，该数据集包含来约 50000 条训练样本，1100 条验证样本，以及 2000 条测试样本。
 
