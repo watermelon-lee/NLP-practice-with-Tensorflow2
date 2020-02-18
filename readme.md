@@ -10,7 +10,7 @@
 
 当然，在这一个过程中，对于词嵌入还是有了更多的理解。
 
-最终训练结果如下：
+### 运行结果
 
 本地训练，Embedding_size=50,epoch=10,最相似的10个单词
 
@@ -19,6 +19,28 @@
 colab上，embedding_size=300,epoch=10，最相似的10个单词
 
 > womderful-->['wonderful', 'haunting', 'everyone', 'brilliant', 'marvel', 'fantastic', 'underrated', 'superb', 'perfect', 'flaw']
+
+
+
+鉴于效果一般，之后在下载了Glove50词嵌入文件
+
+根据词嵌入向量的余弦相似度计算相似的单词：
+
+a to b like c to __ 例如:
+
+- man to women like king to quuen
+- Paris to France like Beijing to China
+
+### 运行结果
+
+```
+man-->woman like boy --> girl
+small-->smaller like large --> larger
+italy-->italian like china --> chinese
+Japan-->Tokyo like China --> taipei (怕不是要杀头 ORZ)
+```
+
+
 
 # RNN文本分类
 
