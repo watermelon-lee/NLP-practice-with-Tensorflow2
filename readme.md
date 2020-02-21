@@ -79,6 +79,31 @@ comment is: The movie is very ironic.This film criticizes the social phenomena w
 here is the point:0.99971634
 ```
 
+# 恐龙名字生成
+
+项目代码：[查看代码](恐龙名字文本生成.ipynb)
+
+此项目是莎士比亚风格文本生成的基础版本。通过这个项目可以对于后面的项目有更好的把握
+
+加载语料库/dions.txt中众多恐龙名字作为训练预料，最后产生一个可以生成恐龙风格名字的模型。
+
+## 运行结果
+
+```
+未训练：
+njywwtcmeqodygspv
+Dga
+Sa
+Dodygspv
+Qjvfekyneazagqvaaxund
+15个周期后：
+Saousos
+Xtruromos
+Sairraurusn
+Hurusn
+Sndhlurdaybgos
+```
+
 # 莎士比亚风格文本生成
 
 项目说明：【待补充】，在代码中也有很多注释，足以明白这个项目了
