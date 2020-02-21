@@ -136,9 +136,7 @@ Sndhlurdaybgos
 
 了解Attention：[关于Attention的不错文章](https://zhuanlan.zhihu.com/p/37601161)
 
-基于Bahdanau注意力模型，论文中底层使用双向RNN（这里使用的单向GRU）。 计算得分，
-
-论文使用的是Si-1（decoder-hidden-state）与hj（encoder-hidden-state） 在下面的模型中，使用的是decoder-hidden-state与encoder-output。
+基于Bahdanau注意力模型，论文中底层使用双向RNN（这里使用的单向GRU）。 
 
 为了便于训练，我只使用了30000条较短的数据（西班牙语--->英语），对于较短句子（10个单词以内）翻译效果还行。
 
