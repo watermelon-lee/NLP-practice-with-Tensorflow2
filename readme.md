@@ -126,11 +126,54 @@ Sndhlurdaybgos
 > 
 > .............
 
+
+
+# 注意力模型-日期翻译
+
+项目代码：[查看代码](/date_translation.ipynb)
+
+了解Attention：[关于Attention的不错文章](https://zhuanlan.zhihu.com/p/37601161)
+
+实现一个简单版本的注意力模型，实践这个之后再做下一个机器翻译项目更佳。对于给定的不同类型日期格式，翻译为标准格式YYYY-MM-DD
+
+最终对于大部分格式的日期都能准确翻译，但对于xx/xx/xxxx这类型的数据处理不太好。
+
+## 运行结果
+
+```
+source: 3/may/1979
+output: 1999-05-33
+
+source: 18.4.2009
+output: 2009-04-18
+
+source: 04 22 2004
+output: 2004-04-22
+
+source: 6th of August 2016
+output: 2016-08-06
+
+source: Tue 10 Jul 2020
+output: 2000-07-10
+
+source: March 4 2009
+output: 2009-03-04
+
+source: 12/23/2001
+output: 2010-12-21
+
+source: monday march 7 2013
+output: 2013-03-07
+
+```
+
 # 注意力模型-机器翻译
 
 项目代码：[查看代码](注意力机制-机器翻译.ipynb)
 
 了解Attention：[关于Attention的不错文章](https://zhuanlan.zhihu.com/p/37601161)
+
+
 
 基于Bahdanau注意力模型，论文中底层使用双向RNN（这里使用的单向GRU）。 
 
